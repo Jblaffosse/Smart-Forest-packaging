@@ -1,0 +1,51 @@
+Cmp-Mod V01 Created by PcbNew   date = 23/11/2018 11:41:03
+
+BeginCmp
+TimeStamp = 5C0457F3
+Path = /5BF7D33C
+Reference = C1;
+ValeurCmp = 0.22u;
+IdModule  = Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C04580A
+Path = /5BF7D2E8
+Reference = SCL1;
+ValeurCmp = 2.2k;
+IdModule  = Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C045821
+Path = /5BF7D25C
+Reference = SDA1;
+ValeurCmp = 2.2k;
+IdModule  = Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C045837
+Path = /5BF7D5AE
+Reference = SDA-SCL1;
+ValeurCmp = I2C;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C04584D
+Path = /5BF7D53F
+Reference = VCC-GND1;
+ValeurCmp = Alim;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C04586A
+Path = /5BF7D13C
+Reference = VCC-GND-SCL-SDA1;
+ValeurCmp = HIH8120;
+IdModule  = Connector:NS-Tech_Grove_1x04_P2mm_Vertical;
+EndCmp
+
+EndListe
